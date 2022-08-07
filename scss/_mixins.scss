@@ -1,0 +1,38 @@
+//extends
+
+.h1 {
+  animation-name: textAlpha;
+  animation-duration: 8s;
+}
+
+.h1Contacto {
+  @extend .h1;
+  text-align: center;
+}
+
+//mixins
+
+@mixin texto($textAlign, $color) {
+  text-align: textAlign;
+  color: color;
+  padding: 20px;
+}
+
+h1 {
+  @include texto(center, $terciario);
+}
+
+//maps
+
+$palets: (
+  'uno':#c0d3cb,
+  'dos':grey,
+  'tres':#515a56,
+  'cuatro':#939292,
+  'cinco':black,
+  'seis':#ede6e6,
+);
+
+.pie {
+  background-color: map-get($map: $palets, $key: 'uno');
+}

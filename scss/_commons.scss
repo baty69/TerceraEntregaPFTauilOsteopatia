@@ -1,0 +1,123 @@
+.text-grey {
+  color: $secundario;
+}
+
+.h1 {
+  animation-name: textAlpha;
+  animation-duration: 8s;
+}
+
+h1,
+h2,
+h3 {
+  color: $terciario;
+}
+
+p {
+  color: $cuaternario;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+
+.divCenter {
+  text-align: center;
+}
+
+.mainOsteopatia {
+  display: flex;
+}
+
+form {
+  width: 40%;
+  background-color: #ede6e6;
+  height: auto;
+  margin: 15px auto;
+  border-top: solid #c0d3cb 7px;
+  border-right: solid grey 1px;
+  border-bottom: solid grey 1px;
+  border-left: solid grey 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+iframe {
+  width: 90%;
+  height: 20vh;
+}
+
+form div {
+  padding: 5px;
+  font-size: 15px;
+}
+
+.text-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.mapa {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.textBlack {
+  color: $quinario;
+}
+
+.background-light {
+  background-color: $sexagenario;
+}
+
+.detalle__articulo {
+  border-top: solid $primario 7px;
+  margin-bottom: 40px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.detalle__tratamiento {
+  border-top: solid $primario 7px;
+  margin-bottom: 40px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.detalleArticulo2 {
+  width: 70%;
+  height: auto;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  margin: 15px auto;
+  border-top: solid$primario 7px;
+  border-right: solid$secundario 1px;
+  border-bottom: solid$secundario 1px;
+  border-left: solid$secundario 1px;
+}
+
+.transform:hover {
+  transform: translatey(-12px);
+  cursor: pointer;
+}
+
+@keyframes textAlpha {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  form {
+    width: 90%;
+  }
+}

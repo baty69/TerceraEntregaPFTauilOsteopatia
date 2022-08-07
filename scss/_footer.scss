@@ -1,0 +1,17 @@
+.pie {
+    background: $primario;
+}
+
+.pie__titulo--md {
+    font-size: 1.5rem;
+}
+
+.pie__icon--sm {
+    width: 40px;
+}
+
+.scale:hover {
+    transform: scalex(0.7);
+    cursor: pointer;
+    transition: transform 3s;
+}

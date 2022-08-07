@@ -1,0 +1,16 @@
+#antiScroll {
+  margin: auto;
+}
+
+section {
+  width: 80%;
+  height: auto;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  margin: 15px auto;
+  margin-bottom: 40px;
+  border-top: solid $primario 7px;
+  border-left: solid $secundario 1px;
+}

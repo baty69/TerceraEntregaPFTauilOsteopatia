@@ -1,0 +1,48 @@
+//logo
+
+.imgLogo {
+  width: 180px;
+}
+
+//body
+
+body {
+  background-image: url(../css/img/ki4.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+//nav carousel
+
+.encabezado__img--fluid {
+  width: 70%;
+  display: block;
+  margin: auto;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+div img {
+  width: 100%;
+}
+
+aside {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#galeria .col-lg-4 {
+  margin: o !important;
+  padding: 15px;
+}
+
+#galeria img {
+  width: 100%;
+}
+
+#galeria img:hover {
+  border: 5px solid #f7f7f7;
+}
